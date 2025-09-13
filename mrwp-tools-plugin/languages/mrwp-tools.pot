@@ -1,0 +1,194 @@
+# Copyright (C) 2024 Mr.WordPress Tools
+# This file is distributed under the same license as the Mr.WordPress Tools plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mr.WordPress Tools 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mrwp-tools\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T10:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: mrwp-tools\n"
+
+#: admin/Settings.php:43
+msgid "Mr.WordPress Tools"
+msgstr ""
+
+#: admin/Settings.php:111
+msgid "Configuration"
+msgstr ""
+
+#: admin/Settings.php:118
+msgid "Hub URL"
+msgstr ""
+
+#: admin/Settings.php:127
+msgid "Client Email"
+msgstr ""
+
+#: admin/Settings.php:137
+msgid "Bypass Link"
+msgstr ""
+
+#: admin/Settings.php:146
+msgid "Current Bypass Link"
+msgstr ""
+
+#: admin/Settings.php:202
+msgid "Current Status"
+msgstr ""
+
+#: admin/Settings.php:206
+#: admin/Settings.php:213
+msgid "Maintenance Mode:"
+msgstr ""
+
+#: admin/Settings.php:207
+#: admin/Settings.php:214
+msgid "Active"
+msgstr ""
+
+#: admin/Settings.php:207
+#: admin/Settings.php:214
+msgid "Inactive"
+msgstr ""
+
+#: admin/Settings.php:211
+msgid "Debug Mode:"
+msgstr ""
+
+#: admin/Settings.php:223
+msgid "API Information"
+msgstr ""
+
+#: admin/Settings.php:224
+msgid "API Base URL:"
+msgstr ""
+
+#: admin/Settings.php:225
+msgid "Site Secret:"
+msgstr ""
+
+#: admin/Settings.php:226
+msgid "The complete site secret is required for HMAC authentication. Contact your administrator for the full secret."
+msgstr ""
+
+#: admin/Settings.php:233
+msgid "Configure the basic settings for Mr.WordPress Tools."
+msgstr ""
+
+#: admin/Settings.php:242
+msgid "URL of the external dashboard that will manage this site."
+msgstr ""
+
+#: admin/Settings.php:251
+msgid "Email address of the site owner who will receive maintenance notifications."
+msgstr ""
+
+#: admin/Settings.php:257
+msgid "The bypass link allows access to the site even when maintenance mode is active."
+msgstr ""
+
+#: admin/Settings.php:259
+msgid "Security Note:"
+msgstr ""
+
+#: admin/Settings.php:259
+msgid "Keep this link private. It can be regenerated via the API if needed."
+msgstr ""
+
+#: admin/Settings.php:273
+msgid "No bypass link available"
+msgstr ""
+
+#: admin/Settings.php:276
+msgid "This link can only be regenerated via the API using the \"reset_bypass\" action."
+msgstr ""
+
+#: admin/Settings.php:299
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/Settings.php:305
+msgid "Error saving settings."
+msgstr ""
+
+#: admin/Settings.php:328
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/Email.php:24
+msgid "Client email not configured"
+msgstr ""
+
+#: includes/Email.php:30
+msgid "Invalid client email address"
+msgstr ""
+
+#: includes/Email.php:39
+msgid "Bypass link not available"
+msgstr ""
+
+#: includes/Email.php:45
+msgid "[Mr.WordPress] Maintenance activée – %s"
+msgstr ""
+
+#: includes/Email.php:69
+msgid "Failed to send email"
+msgstr ""
+
+#: includes/Email.php:84
+msgid "Bonjour,\n\nNous venons d'activer un mode maintenance pour intervenir en sécurité sur le site %s.\n\nAccès privé (ne pas partager) : %s\n\nDate/heure : %s\nContact : support@mrwordpress.com\n\n— Mr.WordPress Tools"
+msgstr ""
+
+#: includes/Email.php:172
+msgid "[Mr.WordPress] Alert: %s - %s"
+msgstr ""
+
+#: includes/Email.php:178
+msgid "Alert on %s\n\nType: %s\nMessage: %s\nTime: %s\n\nSite: %s\n\n— Mr.WordPress Tools"
+msgstr ""
+
+#: includes/Email.php:192
+msgid "Additional Information:"
+msgstr ""
+
+#: includes/Email.php:211
+msgid "No recipient email address"
+msgstr ""
+
+#: includes/Email.php:218
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/Email.php:223
+msgid "[Mr.WordPress] Test Email"
+msgstr ""
+
+#: includes/Email.php:225
+msgid "This is a test email from Mr.WordPress Tools.\n\nSite: %s\nTime: %s\n\nIf you received this email, the email configuration is working correctly.\n\n— Mr.WordPress Tools"
+msgstr ""
+
+#: includes/Email.php:239
+msgid "Failed to send test email"
+msgstr ""
+
+#: includes/Rest.php:99
+msgid "Unknown action: %s"
+msgstr ""
+
+#: includes/Security.php:47
+msgid "Missing authentication headers"
+msgstr ""
+
+#: includes/Security.php:59
+msgid "Request timestamp is outside acceptable window"
+msgstr ""
+
+#: includes/Security.php:72
+msgid "Invalid HMAC signature"
+msgstr ""
